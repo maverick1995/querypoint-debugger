@@ -1,0 +1,9 @@
+Querypoint debugging applies dynamic code analysis with user-interaction to debug code without requiring breakpoints or log statements. For example, the developer asks for the last change of an object property and re-executes the code: the querypoint debugger gives the line and value of the last change.
+
+This project integrates other projects to create an installable Chrome Browser extension. Downloads from this project act like a 'dev' channel for the Querypoint debugger project: weekly updates for the extension hosted in the Chrome Web Store.
+
+
+To use:
+1- Build the extension running the script install.sh
+2- Open Chrome with the experimental api flag (--enable-experimental-extension-apis)
+3- Go to chrome://extensions/ select the checkbox labeled Developer Mode and click on Load unpacked extension. Select the extension folder built in step 1
