@@ -1,0 +1,9 @@
+This script is used to build and upload a CRX file using the latest releases of
+devtoolsExtended, devtools-save and querypointprototype.
+
+The builded CRX will have assume that the last version number is in the file
+version. After uploading this files gets modified to the new current version
+number.
+
+To use it execute release.sh providing the private key and google-code user
+name.
