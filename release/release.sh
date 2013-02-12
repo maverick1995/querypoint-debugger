@@ -15,16 +15,8 @@ USER=$2
 read -s -p "Enter password: " PASS
 
 read -d '' DESCRIPTION << "EOF"
-Sorry Chrome want to discourage installation outside of Chrome WebStore:
-1) Use chrome://flags
-   enable Experimental Extension APIs
-   relaunch chrome
-2) Download .crx. 
-   ignore the error message
-   Open chrome://downloads/#
-   Click on "Open downloads folder"
-   Open chrome://extensions
-   Drag the .crx file on to the chrome://extensions
+Installation instructions:
+http://google.github.com/qpp/test/LayoutTests/DocGen/demoSetup.html
 EOF
 
 v=`cat version`
