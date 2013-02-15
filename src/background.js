@@ -153,7 +153,7 @@ chrome.storage.onChanged.addListener(function(changes, namespace) {
     updateSync();
   }
 
-  buildContextMenuItem("Remote DevtoolsExtended", onContextMenuClick);
+  buildContextMenuItem("Set For Remote Debug", onContextMenuClick);
 
 
   // -------------------------------------------------
